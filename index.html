@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <meta name="author" content="Samuel Yazie, Zander Toews, Riley Clark">
+        <meta name="description" content="Project Mercury Media">
+        <meta name="keywords" content="final project, web developement, html, css">
+        <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" media="all">
+        <link rel="stylesheet" href="./assets/css/index.css" type="text/css" media="all">
+        <title>Mercury Media</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+    <!----------------HEADER---------------->
+    <header>
+        <div class="container flex head">
+            <div>
+                <h2><span class="m">M</span>ERCURY <span class="m">M</span>EDIA</h2>
+            </div>
+            <div>
+                <nav class="head">
+                    <ul>
+                        <li><a href="#about">info</a></li>
+                        <li><a href="#help">help</a></li>
+                        <li><a class="p-button" href="#products">products</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!----------------END OF HEADER---------------->
+
+    <!----------------HERO---------------->
+        <section class="hero center">
+            <div class="video-container">
+                <video autoplay loop muted>
+                    <source src="./assets/img/herovideo.mp4" type="video/mp4">
+                </video>
+            <div class="container center">
+                <div>
+                    <h1>Why wish upon a star,</h1>
+                    <h1>when it's just <span class="click-away">a click away?</span></h1>
+                    <a href="#products">
+                        <button class="learn-more">learn more</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    <!----------------END OF HERO ---------------->
+
+    <!----------------ABOUT REDIR.---------------->
+        <section class="page-box-shadow two-columns" id="about">
+            <div class="container two-columns">
+                    <img class="about-logo" src="./assets/img/mercury-media-logo.png" alt="Mercury Media logo">
+                <div class="about-info">
+                    <div class="we-are-astro">
+                        <h2>We are Mercury Media.</h2>
+                        <h2>Your one-stop, astrological shop.</h2>
+                    </div>
+                    <div class="mm-desc">
+                        <p>
+                            At Mercury Media, we don't just sell stars; we ignite your imagination 
+                            and take you on a cosmic journey like no other. Our passion for the night 
+                            sky, combined with cutting-edge technology, allows us to offer you a 
+                            unique and enchanting experience that brings the wonders of the universe 
+                            closer than ever before.
+                        </p>
+                    </div>
+                    <div class="more">
+                        <p>
+                            Want to know more? 
+                            <a href="./about.html">
+                                <button class="click-here">click here</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!----------------END OF ABOUT SECT.--------------->
+
+    <!----------------PRODUCTS---------------->
+        <section class="page-box-shadow" id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="box one">
+                        <div class="box-image image-1"></div>
+                        <h3>Little Dipper</h3>
+                        <p>
+                            Own a piece of the Cosmos with our Little Dipper package. 
+                            Name a star, and get a customized 
+                            certificate. This is a unique gift that shines as brightly as 
+                            your love for that special someone.
+                        </p>
+                        <h4>
+                            $99.99 CAD
+                        </h4>
+                    </div>
+                    <div class="box two">
+                        <div class="box-image image-2"></div>
+                        <h3>Big Dipper</h3>
+                        <p>
+                            Eternalize your memory with our Big Dipper collection.
+                            Launch a symbolic star into the night sky, representing 
+                            any of your cherished moments. Receive a star map, and 
+                            certificate.
+                        </p>
+                        <h4>
+                            $199.99 CAD
+                        </h4>
+                    </div>
+                    <div class="box three">
+                        <div class="box-image image-3"></div>
+                        <h3>Orion's Belt</h3>
+                        <p>
+                            Embark on a cosmic adventure with our Orion's Belt package.
+                            Choose one of the constellations in our night sky and receive a 
+                            star with your own name on it.
+                        </p>
+                        <h4>
+                            $499.99 CAD
+                        </h4>
+                    </div>
+                    <div class="box four">
+                        <div class="box-image image-4"></div>
+                        <h3>Galactic Guardian</h3>
+                        <p>
+                            Join the exclusive Guardian club! Name a star, and 
+                            receive a custom engraved 
+                            telescope, and gain full access to our virtual 
+                            astronomy events.
+                        </p>
+                        <h4>
+                            <span>Contact Us</span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!----------------END OF PRODUCTS---------------->
+
+    <!----------------CONTACT REDIR.--------------->
+        <section class="contact" id="help">
+            <h2>Having trouble?</h2>
+            <p>
+                Fill out a personalized
+                <a href="contact">
+                    <button class="contact-form"><a href="./contact.html">contact form</a></button>
+                </a>
+            </p>
+        </section>
+
+    <!----------------END OF CONTACT REDIR.---------------->
+
+    <!----------------FOOTER---------------->
+        <footer>
+            <div class="container flex foot">
+                <nav class="foot">
+                    <ul>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-x-youtube"></i></a>
+                    </ul>
+                </nav>
+                <div class="copyright">
+                    <p>&copy;2023 Mercury Media</p>
+                </div>
+            </div>
+        </footer>
+    <!----------------END OF FOOTER---------------->
+    </body>
+</html>
